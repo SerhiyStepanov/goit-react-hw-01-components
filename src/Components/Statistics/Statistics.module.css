@@ -1,0 +1,39 @@
+.statistics {
+  background-color: rgb(230, 230, 230);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.label {
+  color: black;
+}
+
+.percentage {
+  color: rebeccapurple;
+}
